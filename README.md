@@ -3,7 +3,7 @@
 
 [Esempio accesso concorrente a  variabile 'stack'](https://iisponti.gitbook.io/tecnologie_quinta_2023_24/accesso-concorrente-a-variabili-condivise#esempio-accesso-concorrente-a-variabile-stack)
 
-Esempio di alcune esecuzioni:
+Esempio di alcune esecuzioni. Una prima esecuzione:
 
 ```
 PS C:\SCUOLA\RUN> javac .\StackConcorrenteApp.java
@@ -115,6 +115,7 @@ FINITO is EMPTY: NO
 mentre un'altra:
 
 ```
+PS C:\SCUOLA\RUN> java StackConcorrenteApp
 PUT >>>> f
 GET <<<< 1, value: e
 PUT >>>> g
