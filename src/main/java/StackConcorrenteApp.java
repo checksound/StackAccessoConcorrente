@@ -16,11 +16,6 @@ public class StackConcorrenteApp {
                     System.out.println("PUT >>>> " + (char) ch);
                     stack.push((char) ch);
 
-                    /*
-                    try {
-                        Thread.sleep(1);
-                    } catch (InterruptedException ex) {}
-                    */
             });
 
         }
@@ -54,11 +49,6 @@ public class StackConcorrenteApp {
                 char cValue = stack.pop();
                 System.out.println("GET <<<< " + index + ", value: " + cValue);
 
-                /*
-                try {
-                    Thread.sleep(1);
-                } catch (InterruptedException ex) {}
-                */
             }
 
         }
